@@ -118,10 +118,10 @@ T["GESTIÓN DE RECURSOS – UH-60"]:::banner --> A([Inicio del Proceso]):::inici
 
 A --> B["Necesidades de Unidades Técnicas y Logísticas<br/><br/>• Mantenimiento Programado<br/>• Componentes a TBO<br/>• Repuestos Críticos<br/>• Servicios de Reparación<br/>• Requerimientos de Ingeniería<br/>• Entrenamiento & Herramientas"]:::caja
 
-B --> C["Consolidación de Requerimientos<br/>DAVAA & BRIAV32"]:::azulFuerte
+B --> C["Consolidación de Requerimientos<br/>BRIAV32 - DAVAA"]:::azulFuerte
 
-C --> D1["Validación Técnica & Logística"]:::azulFuerte
-C --> D2["Validación Financiera & CCV"]:::verdeFuerte
+C --> D1["Validación Técnica y Logística"]:::azulFuerte
+C --> D2["Validación Financiera y CCV"]:::verdeFuerte
 
 D1 --> E{¿Viable Financieramente?}:::decision
 D2 --> E
@@ -132,11 +132,11 @@ F -.-> B
 E -->|Sí| G["Priorizar"]:::verde
 G --> H["Priorización<br/>Lista de Necesidades UH-60"]:::naranja
 
-H --> I["Definición del Tipo & Financiamiento"]:::grisCaja
+H --> I["Definición del Tipo de Financiamiento"]:::grisCaja
 I --> J{¿Anual o Plurianual?}:::decision2
 
-J --> K["Consumibles & Rotación"]:::azulFuerte
-J --> L["Mayores & Críticos"]:::verdeFuerte
+J --> K["Consumibles y Rotación"]:::azulFuerte
+J --> L["Mayores y Críticos"]:::verdeFuerte
 
 K --> M["Generación del Anteproyecto"]:::grisCaja
 L --> M
@@ -145,7 +145,7 @@ M --> N["Revisión DEPLA"]:::grisCaja
 
 N --> O["Presentación a CENAC<br/><br/>• Publicación<br/>• Evaluación<br/>• Adjudicación<br/>• Supervisión<br/>• Recepción de Bienes"]:::caja
 
-O --> P["Monitoreo & Retroalimentación<br/><br/>• Informes Mensuales<br/>• Alertas & Retrasos<br/>• Ajustes TRM<br/>• Reprogramaciones"]:::control
+O --> P["Monitoreo y Retroalimentación<br/><br/>• Informes Mensuales<br/>• Alertas & Retrasos<br/>• Ajustes TRM<br/>• Reprogramaciones"]:::control
 
 P -.-> B
 
