@@ -6,7 +6,7 @@
 flowchart TD
 
 A[Inicio del Proceso]:::inicio --> B[Necesidades Técnicas y Logísticas]:::proceso
-B --> C[Consolidación DAVAA & Brigada 32]:::proceso
+B --> C[Consolidación BRIAV32 & DAVAA]:::proceso
 C --> D[Validación Técnica & Financiera]:::decision
 D --> E{¿Viable Financieramente?}:::decision
 
@@ -16,9 +16,9 @@ F --> B
 E -- Sí --> G[Priorización]:::estrategico
 G --> H[Definición Tipo de Financiamiento]:::proceso
 H --> I[Generación Anteproyecto]:::proceso
-I --> J[Revisión DPC]:::proceso
-J --> K[Presentación CENAC]:::proceso
-K --> L[Monitoreo & Retroalimentación]:::control
+I --> J[Revisión DEPLA]:::proceso
+J --> K[Sustentación CEDE5]:::proceso
+K --> L[Monitoreo y Retroalimentación]:::control
 L --> B
 
 classDef inicio fill:#1f4e79,color:#fff;
